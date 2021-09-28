@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1 class="visually-hidden">24/7 yangiliklar</h1>
+    
+    <!-- HEADER SECTION -->
+    
+    <header class="header-wrapper">
+        <div class="container">
+            <div class="header-top">
+                <div class="left-side">
+                    <a class="logo-link" href="#">
+                        <img src="./images/logo.png" alt="namanganliklar logo"
+                        width="320"
+                        height="40"
+                        >
+                    </a>
+                    <ul class="currency-list">
+                        <li class="currency-item"><strong class="currency-icon">$</strong>10137.2</li>
+                        <li class="currency-item"><strong class="currency-icon">P</strong>138.26</li>
+                        <li class="currency-item"><strong class="currency-icon">E</strong>10988.72</li>
+                    </ul>
+                </div> <!--End of left-side-->
+                <div class="right-side">
+                    <form  enctype="multipart/form-data">
+                        <div class="search-form">
+                            <input  type="search" name="search" id="search" placeholder="Nima qidiramiz?">
+                        </div>
+                    </form>
+                    
+                    <img class="search-icon" src="./images/search.svg" alt="search icon" width="18" height="18">
+                    
+                    <div class="lang-select">
+                        <img src="./images/langua.png" alt="language select" width="20" height="20">
+                        <span>РУ</span>
+                    </div>
+                    
+                    <a class="telegram-link" href="#">
+                        <img class="telegram-icon" src="./images/telegram.png" alt="telegram-link"
+                        width="19"
+                        height="19"
+                        >
+                        Подписатся</a>
+                    </div>
+                </div>
+                
+                <div class="header-center">
+                    <div class="container header-center">
+                        <ul class="header-news-type">
+                            <li class="news-type-item"><a class="news-type-link" href="#">Узбекистан</a></li>
+                            <li class="news-type-item"><a class="news-type-link" href="#">Мир</a></li>
+                            <li class="news-type-item"><a class="news-type-link" href="#">Эканомика</a></li>
+                            <li class="news-type-item"><a class="news-type-link" href="#">Политика</a></li>
+                            <li class="news-type-item"><a class="news-type-link" href="#">Общество</a></li>
+                            <li class="news-type-item"><a class="news-type-link" href="#">Технологии</a></li>
+                            <li class="news-type-item"><a class="news-type-link" href="#">Спорт</a></li>
+                            <li class="news-type-item"><a class="news-type-link" href="#">Культура</a></li>
+                            <li class="news-type-item"><a class="news-type-link" href="#">Происшествиа</a></li>
+                            <li class="news-type-item"><a class="news-type-link" href="#">Туризм</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="header-bottom">
+                    <div class="container header-container">
+                        <img src="./images/header-img.jpg" alt="header image"
+                        width="1240"
+                        height="99"
+                        >
+                    </div>
+                </div>
+            </div> <!--End of container-->
+        </header>
+        
+        <main>
+            <div class="hero">
+                <div class="container hero-container">
+                    <div class="hero-left">
+                        <h2 class="hero-heading">Напишите нам</h2>
+                        <form>
+                            <div>
+                                <input type="text" name="name" required placeholder="Имя">
+                            </div>
+                            <div>
+                                <input type="email" name="email" required pattern="([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})" placeholder="Электронная почта">
+                            </div>
+                            <div>
+                                <input type="tel" name="phone" required pattern="(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})" placeholder="Номер телефона">
+                            </div>
+                            <div>
+                                <input type="text" name="theme" required placeholder="Тема">
+                            </div>
+                            <div>
+                                <textarea name="text" cols="30" rows="10" required placeholder="Текст"></textarea>
+                            </div>
+                            <div>
+                                <input type="file" name="file" required>
+                            </div>
+                            <div>
+                                <input type="password" name="password" required placeholder="Код">
+                            </div>
+                            <div>
+                                <button type="submit">Отправить</button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                    
+                    <div class="hero-right">
+                        <a class="hero-link" href="index.html">
+                            <img src="./images/logo.png" alt="namanganliklar log"
+                            width="320"
+                            height="40"
+                            >
+                        </a>
+                        <ul class="social-networks">
+                            <li class="social-network-item">
+                                <span class="network-text">Электронная почта</span>
+                                <span class="network-app">
+                                    <a class="social-link"  href="mailto:info@namanganliklar24.uz">info@namanganliklar24.uz</a>
+                                </span>
+                            </li>
+                            <li class="social-network-item">
+                                <span class="network-text">Социальные сети</span>
+                                <span class="network-app">
+                                    <a class="social-link" href="#">
+                                        <img src="./images/facebook.svg" alt="facebook icon"
+                                        width="32"
+                                        height="32"
+                                        >
+                                    </a>
+                                    <a class="social-link" href="#">
+                                        <img src="./images/twitter.svg" alt="twitter icon"
+                                        width="32"
+                                        height="32"
+                                        >
+                                    </a>
+                                    <a class="social-link" href="#">
+                                        <img src="./images/odno.svg" alt="odno"
+                                        width="32"
+                                        height="32"
+                                        >
+                                    </a>
+                                </span>
+                                
+                            </li>
+                            <li class="social-network-item">
+                                <span class="network-text">Телеграм канал</span>
+                                <span class="network-app">
+                                    <a class="social-link telegram-link telg" href="#">
+                                        <img class="telegram-icon" src="./images/telegram.png" alt="telegram icon"
+                                        width="19"
+                                        height="19"
+                                        >
+                                        Подписатся
+                                    </a>
+                                </span>
+                            </li>
+                            <li class="social-network-item">
+                                <span class="network-text">
+                                    Мобильная приложение
+                                </span>
+                                <span class="network-app">
+                                    <a class="social-link" href="#">
+                                        <img src="./images/google.play.svg" alt="google play"
+                                        width="111"
+                                        height="33"
+                                        >
+                                    </a>
+                                    <a class="social-link" href="#">
+                                        <img src="./images/App.store.svg" alt="app store"
+                                        width="111"
+                                        height="33"
+                                        >
+                                    </a>
+                                </span>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+    </body>
+    </html>
